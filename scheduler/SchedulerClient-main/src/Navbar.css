@@ -1,0 +1,27 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: beige;
+    height: 48px;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-home-link {
+    margin-left: 20px;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 400;
+}
+
+.nav-home-link:hover,
+.nav-script-link:hover
+{
+    color: navy;
+    margin-top: -5px;
+}
